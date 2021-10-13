@@ -1,0 +1,120 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <title>Contact Us</title>
+    </head>
+
+    <body>
+      <div class="container">
+      <header>
+          <h1><center>Kitten's Kitchen</center></h1>
+      </header>
+<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+<style>
+
+</style>
+
+<hr/>
+<nav>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="Main-Page.html"><span class="material-icons">
+  home
+  </span></a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="Menu.html">Menu</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="Contact-Us.html">Contact Us</a>
+  </li>
+</ul>
+</nav>
+<hr/>
+
+
+<center><table>
+  <tr>
+    <td align="right"><label for="Name">Name:</label></td>
+    <td>
+      <form action="submit.html" method="POST">
+      <input type="text" id="Name" name="Name" required>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right"><label for="Email">Email:</label></td>
+    <td>
+      <input type="text" id="Email" email="Email" required>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right"><label for="contact">Reason for Inquiry:</label></td>
+    <td>
+      <select id="contact" name="contact" required>
+        <option value="default" selected>Catering</option>
+        <option value="Catering">Catering</option>
+        <option value="Private Party">Private Party</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Other">other</option>
+        </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right"><label for="info">Additional Information:</label></td>
+    <td><textarea id="info" name="info"></textarea></td>
+  </tr>
+
+  <tr>
+    <td align="right"><label>Have you been to the restaurant:</label></td>
+    <td><input type="radio" id="choice1" name="questionnaire" value="no" checked required/>
+        <label for="choice1">No</label>
+        <input type="radio" id="choice2" name="questionnaire" value="yes"/>
+        <label for="choice2">Yes</label>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right"><label>Best days to contact you:</label></td>
+    <td><input type="checkbox" id="M" name="interest" value="M">
+        <label for="M">M</label>
+        <input type="checkbox" id="T" name="interest" value="T">
+        <label for="T">T</label>
+        <input type="checkbox" id="W" name="interest" value="W">
+        <label for="W">W</label>
+        <input type="checkbox" id="Th" name="interest" value="Th">
+        <label for="Th">Th</label>
+        <input type="checkbox" id="F" name="interest" value="F">
+        <label for="F">F</label>
+    </td>
+  </tr>
+</table></center>
+
+<center>
+  <input type="submit" name="Send Request" value="Send Request">
+  <div class="valid-feedback">
+        Thank you for your information! We will reach out as soon as possible!
+      </div>
+</center>
+
+
+    <footer>
+      <hr/>
+      <p><center>1111 Polington, Furball, Az</center></p>
+      <p><center>(000)000-0000</center></p>
+      <hr/>
+    </footer>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<noscript>this site is best viewed with JavaScript enabled</noscript>
+    </body>
+</html>
